@@ -3,6 +3,7 @@ import "./Header.css";
 import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
@@ -10,9 +11,11 @@ import InputGroup from "react-bootstrap/InputGroup";
 import Button from "react-bootstrap/Button";
 import FormControl from "react-bootstrap/FormControl";
 
+import "bootstrap/dist/css/bootstrap.css";
+
 export default function Header() {
   return (
-    <div>
+    <Container>
       <Row>
         <Col sm={7}>
           <Card.Text className="cities">
@@ -41,6 +44,6 @@ export default function Header() {
           </InputGroup>
         </Col>
       </Row>
-    </div>
+    </Container>
   );
 }
