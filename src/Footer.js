@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <div className="Footer">
       <small>
-        <a href="https://github.com/KissaSpirit/weather-app" target="_blank">
+        <a href="https://github.com/KissaSpirit/weather-react" target="_blank">
           Open-source code
         </a>{" "}
         by SheCodes & Geraldine Craig
